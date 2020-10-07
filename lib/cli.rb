@@ -79,7 +79,7 @@ class CLI
         puts ""
         puts "Did you want to look for another list by the letter again?"
         puts ""
-        puts "go ahead and type in another letter to get a new list!!! or type exit to exit"
+        puts "go ahead and type in another letter to get a new list!!!"
         @letter = gets.strip.downcase
         puts ""
         
