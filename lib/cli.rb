@@ -9,7 +9,7 @@ class CLI
         # search for recipe by letter
         # searching for instructions by  meal
 
-        # do it again?   
+        
         puts ""
         puts "Hi and Welcome to the Meal finder!"
         puts ""
@@ -55,7 +55,6 @@ class CLI
     end
 
     def print_meal(me)
-        #this method prints out a list of all the meals that start with the letter that was passed in as the argument
         puts ""
         puts "Here are all the Meals I have starting with the letter #{@letter}"
         puts ""
@@ -66,7 +65,7 @@ class CLI
     end
 
     def print_single_meal_info(meal)
-        #this method will return the name and details of the meal that is passed in as its Argument
+    
         puts ""
         puts""
         puts  meal.name
